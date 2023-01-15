@@ -20,7 +20,7 @@ const App = () => {
   return (
     <TranslationProvider>
       <ConferenceCreateProvider>
-        <CommsProvider token={YOUR_TOKEN} packageUrlPrefix={`${window.location.origin}/assets/wasm`}>
+        <CommsProvider token={"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkb2xieS5pbyIsImlhdCI6MTY3MzgyMzU0OCwic3ViIjoiWUpmRzJNejJNdFM1RnkwOVQ3RWVBUT09Iiwic2NvcGUiOiJzZXNzaW9uIiwib2lkIjoiNjExMmJlMTktYzNhZC00OTlmLWE0ODMtOGRiNmEwNDA3MWNlIiwiYmlkIjoiOGEzNjhjMWY4NTk0Njc1MTAxODViN2E2ZGY5ZTE0MmMiLCJhaWQiOiIyMTcyYTM2NS0yZWQ0LTRjOTUtYTcwNy0yNGYzNzI1ZGFjMjYiLCJhdXRob3JpdGllcyI6WyJST0xFX0NVU1RPTUVSIl0sImV4cCI6MTY3Mzg2Njc0OH0.JC4g1qDVDqGkex5CzLOrqxc1gAq4QJyK_723muoeXjEMM37Qi-ypC2BVrkAjXDw8rQ56SmDmiJPdQhno6EuiiQ"} packageUrlPrefix={`${window.location.origin}/assets/wasm`}>
           <ThemeProvider
             customThemes={{
               'My Theme': { colors: { white: 'yellow', primary: { 400: 'red' }, secondary: { 400: 'blue' } } },
